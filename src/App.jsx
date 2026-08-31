@@ -13,11 +13,11 @@ const App=()=>{
       <HeroSection />
       <Products />
       <div className="flex flex-col w-full lg:w-[80%] m-auto">
-        <Features title="Why Choose Us?" description="We make online shopping simple, safe and rewarding with premium products, fast delivery and exceptional customer service." ctaTitle="Learn More" srcImg="/assets/first-feature.png" />
-        <Features classNames="flex-row-reverse" title="Shop by Category" description="Find Everything you need in just a few clicks - from fashion and electronics to home essentials and more." ctaTitle="Browse Categories" srcImg="/assets/second.png" />
-        <Features title="Trending Right Now" description="Discover what's hot! Shop the products everyone is loving today." ctaTitle="View Best Sellers" srcImg="/assets/third.png" />
-        <Features classNames="flex-row-reverse" title="Limited Time Deals 🔥" description="Grab exclusive discounts and special offers before they're gone." ctaTitle="Shop Deals" srcImg="/assets/four.png" />
-        <Features title="Loved by Thousands" description="Amazing experience! The delivery was quick, and the product quality exceeded expectations." ctaTitle="Shop Now" srcImg="/assets/five.png" />
+        <Features title="Why Choose Us?" description="We make online shopping simple, safe and rewarding with premium products, fast delivery and exceptional customer service." ctaTitle="Learn More" srcImg={`${import.meta.env.BASE_URL}assets/first-feature.png`} />
+        <Features classNames="flex-row-reverse" title="Shop by Category" description="Find Everything you need in just a few clicks - from fashion and electronics to home essentials and more." ctaTitle="Browse Categories" srcImg={`${import.meta.env.BASE_URL}assets/second.png`} />
+        <Features title="Trending Right Now" description="Discover what's hot! Shop the products everyone is loving today." ctaTitle="View Best Sellers" srcImg={`${import.meta.env.BASE_URL}assets/third.png`} />
+        <Features classNames="flex-row-reverse" title="Limited Time Deals 🔥" description="Grab exclusive discounts and special offers before they're gone." ctaTitle="Shop Deals" srcImg={`${import.meta.env.BASE_URL}assets/four.png`} />
+        <Features title="Loved by Thousands" description="Amazing experience! The delivery was quick, and the product quality exceeded expectations." ctaTitle="Shop Now" srcImg={`${import.meta.env.BASE_URL}assets/five.png`} />
       </div>
       <Footer />
     </div>
