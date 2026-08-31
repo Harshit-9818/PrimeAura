@@ -13,7 +13,7 @@ const Navbar = () => {
         </div>
         <div className="md:flex items-center justify-center gap-5 hidden">
             <div className="flex items-center justify-center gap-1 hover:text-shadow-lg hover:text-shadow-rose-400 hover:underline cursor-pointer">
-                <img src="/assets/cart-icon.svg" alt="cart-icon" />
+                <img src={`${import.meta.env.BASE_URL}assets/cart-icon.svg`} alt="cart-icon" />
                 <span className="text-sm">Cart</span>
             </div>
             <span onClick={()=> scrollToSection("Footer")} className="cursor-pointer hover:underline text-sm hover:text-shadow-lg hover:text-shadow-rose-400">Help</span>
