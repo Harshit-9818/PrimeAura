@@ -15,7 +15,7 @@ const HeroSection = () => {
                 </button>
             </div>
         </div>
-        <img src="/assets/hero-image.png" alt="hero-image" className="w-[20rem] lg:w-120 lg:h-100" />
+        <img src={`${import.meta.env.BASE_URL}assets/hero-image.png`} alt="hero-image" className="w-[20rem] lg:w-120 lg:h-100" />
     </div>
   );
 };
