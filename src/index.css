@@ -1,0 +1,52 @@
+@import "tailwindcss";
+@keyframes floatCircle {
+  0% {
+    transform: translate(0px, 0px);
+  }
+  25% {
+    transform: translate(10px, -15px);
+  }
+  50% {
+    transform: translate(0px, -25px);
+  }
+  75% {
+    transform: translate(-10px, -15px);
+  }
+  100% {
+    transform: translate(0px, 0px);
+  }
+}
+
+.float-circle {
+  animation: floatCircle 6s ease-in-out infinite;
+}
+@keyframes smoothOrbit {
+  0% {
+    transform: translate(0px, 0px);
+  }
+  /* 25% {
+    transform: translate(1px, -1px);
+  } */
+  50% {
+    transform: translate(2px, -6px);
+  }
+  /* 75% {
+    transform: translate(-4px, -4px);
+  } */
+  100% {
+    transform: translate(0px, 0px);
+  }
+}
+
+/* .float-smooth {
+  animation: smoothOrbit 3s linear infinite;
+} */
+.float-smooth {
+  animation: smoothOrbit 3s ease-in-out infinite alternate;
+}
+.no-scrollbar{
+  scrollbar-width: none;
+}
+@theme {
+  --color-wild-sand: #f4ede4;
+}
