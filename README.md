@@ -4,7 +4,9 @@ PrimeAura is a modern and responsive e-commerce website built with **React.js, V
 
 ## 🌐 Live Demo
 
-**[Visit PrimeAura](https://harshit-9818.github.io/PrimeAura/)**
+Live Website: https://harshit-9818.github.io/PrimeAura/
+
+GitHub Repository: https://github.com/Harshit-9818/PrimeAura
 
 ## ✨ Features
 
